@@ -21,7 +21,6 @@ function createFighter(fighter, selectFighter) {
 
   fighterElement.append(imageElement);
   fighterElement.addEventListener('click', onClick, false);
-
   return fighterElement;
 }
 
